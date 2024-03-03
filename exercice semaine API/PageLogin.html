@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire page Harry Potter</title>
+    <link rel="stylesheet" href="PageLogin.css">
+</head>
+<body>
+  
+     <header>
+      <div class="container">
+        <li><a href="pageWeb.html">ACCUEIL</a></li>
+        <li><a href="PageLogin.html">Login</a></li>
+      </div>
+    </header>
+
+
+    <div class="message-error">
+      <ul></ul>
+    </div>
+    <div class="message-success">
+      <h1>Votre formulaire a bien été envoyé</h1>
+    </div>
+
+    <form id="formulaire">
+      <div>
+        <label for="nom">Nom</label>
+        <input type="text" name="nom" id="nom" />
+      </div>
+      <div>
+        <label for="pseudo">Prénom</label>
+        <input type="text" name="pseudo" id="pseudo" />
+      </div>
+      <div>
+        <label for="password">Mot de passe</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+       
+      <button type="submit">S'inscrire</button>
+    </form>
+    
+    <script src="PageLogin.js"></script>
+</body>
+</html>
